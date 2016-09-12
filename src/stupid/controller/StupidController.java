@@ -26,6 +26,11 @@ public class StupidController
 		String userInput = readKeyboardInput.nextLine();
 		System.out.println("You said " + userInput);
 		
+		if(userInput.equalsIgnoreCase("Zachary"))
+		{
+		System.out.println("You have the same name as me!!");
+		}
+		
 		System.out.println("What did you eat for breakfast");
 		String userInput1 = readKeyboardInput.nextLine();
 		System.out.println(userInput1 + " thats disgusting.");
@@ -50,6 +55,7 @@ public class StupidController
 		System.out.println("My favorite movie is Ants, don't you love ants? What rating would you give it?");
 		String userInput6 = readKeyboardInput.nextLine();
 		System.out.println(userInput6 + " Isn't high enough! Too bad.");
+		
 		
 		
 	}
